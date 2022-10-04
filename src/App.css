@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;900&display=swap");
+
+#App {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#App-noScroll {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#appHeaderContainer {
+  display: flex;
+  display: space-between;
+  align-items: center;
+}
+
+#leftIcon {
+  width: 6vh;
+  height: 6vh;
+  margin: 3vh;
+  padding-top: 1vh;
+  transform: scaleX(-1);
+}
+
+#rightIcon {
+  width: 6vh;
+  height: 6vh;
+  margin: 3vh;
+  padding-top: 1vh;
+}
+
+#title {
+  color: black;
+  font-weight: 900;
+  font-family: "Fira Sans", "Times New Roman";
+  width: 100vw;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 2vh;
+  width: 65vw;
+  min-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#line {
+  width: 75vw;
+  margin: auto;
+  height: 9vw;
+  color: black;
+}
+
+#menuContainer {
+  top: 0vh;
+  padding: 3vh;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#fullScreenImageContainer {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+
+.keyFindings {
+  margin: auto;
+  max-width: 45vw;
+  border: solid;
+  border-width: 2px;
+  padding: 1vw;
+  margin-bottom: 1vh;
+}
+
+.keyFindingsEmphasis {
+  font-weight: 600;
+}
+
+.contentHeader {
+  font-size: 14pt;
+  font-weight: 600;
+}
+
+.keyObservationTitle {
+  font-size: 16pt;
+}
+
+.observationWrapper {
+  margin: auto;
+  width: 60vw;
+}
+
+.observationSection {
+  text-decoration: underline;
+}
+
+.questionAnswerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.questionWrapper {
+  width: 60vw;
+}
+
+.answerWrapper {
+  width: 60vw;
+}
+
+.findingsWrapper {
+}
+
+.findingsBox {
+}
+
+.personaEmpathyMap {
+  height: 80vh;
+  width: 80vh;
+  margin: 1vh;
+}
+
+.empathyMapWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personaHeader {
+  width: 60vw;
+  font-size: 14pt;
+}
+
+.personaCaption {
+  width: 60vw;
+}
+
+.personaQuote {
+  font-style: italic;
+  font-size: 16pt;
+  background-color: lightblue;
+  margin-bottom: -1vh;
+  padding: 5px;
+}
+
+.line {
+  color: red;
+  margin: auto;
+  font-size: 10px;
+  width: 80vw;
+}
+
+.lineBreakBetweenSections {
+  color: gray;
+  opacity: 50%;
+  width: 80vw;
+}
+
+.twoPanels {
+  display: flex;
+  justify-content: center;
+}
+
+.storyboardPanel {
+  width: 35vw;
+  height: 25vw;
+}
+
+.storyboardCaption {
+  width: 35vw;
+  padding: 1em;
+}
+
+.onePanel {
+  border: solid;
+  margin: 1em;
+}
